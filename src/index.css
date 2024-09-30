@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "Qilona";
+  src: local("Qilona-Regular"),
+    url("./fonts/qilona/Qilona-Regular.otf")
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Karid";
+  src: local("karid"),
+    url("./fonts/karid/karid.otf")
+      format("opentype");
+}
+
+.link{
+  font-weight: 400;
+  color: #5F5F5F;
+}
+
+.outlined-text {
+  font-size: 76px;
+  font-weight: normal;
+  color: transparent; /* No fill color */
+  -webkit-text-stroke: 2px white; /* Outline with stroke */
+}
+
+.effect{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 300px;
+  padding: 10px 0;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.effect span{
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  position: relative;
+  z-index: 1;
+}
+
+.liquid{
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.5) ;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  transition: 1s;
+}
+
+.liquid:before,
+.liquid:after{
+  content: "";
+  width: 140%;
+  height: 130%;
+  background-color: #000;
+  position: absolute;
+  top: 8%;
+  left: 40%;
+  transform: translate(-50%, 75%);
+}
+
+.liquid:before{
+  border-radius: 45%;
+  background: rgb(255, 255, 255) ;
+  animation: shake 5s linear infinite;
+}
+
+.liquid:after{
+  border-radius: 40%;
+  background: rgba(255, 255, 255, 0.5) ;
+  animation: shake 10s linear infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+.effect:hover .liquid {top: -160px;}
+.effect:hover span{color: white;}
+
+/* Zoom-in effect */
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Zoom-out effect */
+@keyframes zoomOut {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animations to the images */
+.zoom-in {
+  animation: zoomIn 1s forwards;
+}
+
+.zoom-out {
+  animation: zoomOut 1s forwards;
+}

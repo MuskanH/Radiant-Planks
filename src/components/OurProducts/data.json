@@ -1,0 +1,77 @@
+[
+   {
+    "eco": [
+        {
+            "id": 1,
+            "name": "Woodland Symphony",
+            "img": "/img/woodland.svg"
+        },
+        {
+            "id": 2,
+            "name": "Classic Scarborough",
+            "img": "/img/scarborough.svg"
+        },
+        {
+            "id": 3,
+            "name": "Jeffersonian Oak",
+            "img": "/img/jeffer.svg"
+        },
+        {
+            "id": 4,
+            "name": "Ethereal Horizon",
+            "img": "/img/ethereal.svg"
+        },
+        {
+            "id": 5,
+            "name": "Aurora Craft",
+            "img": "/img/aurora.svg"
+        },
+        {
+            "id": 6,
+            "name": "LegacyWood OilGlow",
+            "img": "/img/legacy.svg"
+        },
+        {
+            "id": 7,
+            "name": "Enigma Woodcraft",
+            "img": "/img/enigma.svg"
+        },
+        {
+            "id": 8,
+            "name": "Granite Majesty",
+            "img": "/img/granite.svg"
+        },
+        {
+            "id": 9,
+            "name": "Heritage Oak",
+            "img": "/img/heritage.svg"
+        },
+        {
+            "id": 10,
+            "name": "Obsidian Noir Elegance",
+            "img": "/img/obsidian.svg"
+        },
+        {
+            "id": 11,
+            "name": "Planktonic Reselience oak",
+            "img": "/img/planktop.svg"
+        },
+        {
+            "id": 12,
+            "name": "Route-66 Odyssey",
+            "img": "/img/route66.svg"
+        },
+        {
+            "id": 13,
+            "name": "Sankofa Wood Craft",
+            "img": "/img/sankofa.svg"
+        },
+        {
+            "id": 14,
+            "name": "Patriot Memorial Silver",
+            "img": "/img/patriot.svg"
+        }
+    ]
+   } 
+
+]
