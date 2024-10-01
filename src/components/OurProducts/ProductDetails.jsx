@@ -326,7 +326,7 @@ const ProductDetails = () => {
 
    
     <div className='w-full flex xl:flex-row flex-col gap-20 justify-center xl:items-start items-center bg-white pt-14 pb-10 md:pb-20 '>
-        <div className=' flex md:flex-row  flex-col-reverse gap-4 justify-center '>
+        <div className=' flex md:flex-row  flex-col-reverse gap-4 justify-center items-center md:items-start '>
            <div className='flex md:flex-col flex-row gap-4 '>
                 <div className='relative'>
                    {selectedImg === product.img && 
@@ -385,14 +385,21 @@ const ProductDetails = () => {
              <img src={selectedImg} alt={product.name} style={{ transform: `scale(${zoom})`, transition: 'transform 0.3s ease-in-out', }} 
              className='w-full h-full rounded-[8px] object-cover '/>
            </div>
+
+           <div>
+           <p className='text-[22px] font-medium font-workSans text-[#F29622B2] flex md:hidden '>{collectionName === "eco" && "Eco Crafted Elegance Series"}</p>
+            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] flex md:hidden '>{collectionName === "luxicore" && "Luxicore Legacy Series"}</p>
+            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] flex md:hidden'>{collectionName === "viva" && "Viva Wood Series"}</p>
+            <p className='text-[#101010] text-[34px] font-semibold font-workSans flex md:hidden'>{product.name}</p>
+           </div>
         </div>
 
         <div className='xl:w-[40%] w-[90%] '>
-            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] '>{collectionName === "eco" && "Eco Crafted Elegance Series"}</p>
-            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] '>{collectionName === "luxicore" && "Luxicore Legacy Series"}</p>
-            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] '>{collectionName === "viva" && "Viva Wood Series"}</p>
-            <p className='text-[#101010] text-[40px] font-semibold font-workSans '>{product.name}</p>
-            <p className=' text-[#5F5F5F] text-[16px] font-normal font-workSans mt-4 '>{product.desc}</p>
+            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] md:flex hidden '>{collectionName === "eco" && "Eco Crafted Elegance Series"}</p>
+            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] md:flex hidden '>{collectionName === "luxicore" && "Luxicore Legacy Series"}</p>
+            <p className='text-[22px] font-medium font-workSans text-[#F29622B2] md:flex hidden'>{collectionName === "viva" && "Viva Wood Series"}</p>
+            <p className='text-[#101010] text-[40px] font-semibold font-workSans md:flex hidden'>{product.name}</p>
+            <p className=' text-[#5F5F5F] text-[16px] font-normal font-workSans md:mt-4 -mt-8  '>{product.desc}</p>
 
             <p className='text-[#101010] text-[26px] font-workSans font-semibold mt-6 '>Specifications</p>
 
@@ -407,11 +414,11 @@ const ProductDetails = () => {
        
           <div className='flex md:flex-row flex-col md:mt-8 mt-10  gap-3 md:gap-5'>
              {/* <button className='md:w-[300px] w-[90vw] h-[50px] rounded-[10px] bg-[#101010] text-white font-semibold text-[16px] font-workSans '>Installation Guide</button> */}
-             <a href='' className='effect '>
+             <a href='' className='effect w-[90vw] md:w-[300px] '>
               <span>Installation Guide</span>
-              <div className='liquid'></div>
+              <div className='liquid  md:w-[300px] w-[90vw] h-[300px]  '></div>
              </a>
-             <button className='w-[300px] h-[50px] rounded-[10px] bg-[#101010] text-white font-semibold text-[16px] font-workSans '>Inquire Now</button>
+             <button className='md:w-[300px] w-[90vw] h-[50px] rounded-[10px] bg-[#101010] text-white font-semibold text-[16px] font-workSans '>Inquire Now</button>
           </div>
         </div>
       

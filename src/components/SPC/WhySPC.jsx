@@ -6,15 +6,15 @@ const WhySPC = () => {
         <p className='text-[40px] font-normal text-black pt-6'><b className='text-[40px] font-semibold text-black '>WHY</b> SPC?</p>
         <img src="/img/arrowDesign.png"/>
        
-       <div className='xl:w-[85%] w-[90%] xl:h-[490px] h-fit flex xl:flex-row flex-col xl:justify-between border-[7px] mt-5 border-white bg-[#AAAAAA4D] shadow-2xl '>
-          <div className='xl:pl-10 px-4  py-10 flex flex-col gap-y-4 '>
+       <div className='xl:w-[85%] w-[90%] h-fit flex xl:flex-row flex-col-reverse xl:justify-between border-[7px] mt-5 border-white bg-[#AAAAAA4D] shadow-2xl '>
+          <div className='xl:pl-10 px-4 xl:w-[650px] 2xl:w-[800px] py-10 flex flex-col gap-y-4 '>
              <div className='flex gap-x-5 '>
                 <div className='w-[33px] h-[33px] flex-shrink-0 border-[2px] border-white rounded-full bg-[#F29622] flex justify-center items-center ' >
                    <p className='font-semibold text-[18px] text-white '>1</p>
                 </div>
                 <div>
                  <p className='font-montserrat text-[20px] font-bold text-black '>Finish UV Coating</p>
-                 <p className='font-medium text-[16px] text-black '>This top/surface layer of an SPC floor is designed to prevent discolouration, micro
+                 <p className='font-normal text-[16px] text-black '>This top/surface layer of an SPC floor is designed to prevent discolouration, micro
                  scratches and UV radiation.</p>
                 </div>
              </div>
@@ -25,7 +25,7 @@ const WhySPC = () => {
                 </div>
                 <div>
                  <p className='font-montserrat text-[20px] font-bold text-black '>Wear Layer</p>
-                 <p className='font-medium text-[16px] text-black '>It provides resistance to scratches and stains and easy to keep clean.</p>
+                 <p className='font-normal text-[16px] text-black '>It provides resistance to scratches and stains and easy to keep clean.</p>
                 </div>
              </div>
 
@@ -35,7 +35,7 @@ const WhySPC = () => {
                 </div>
                 <div>
                  <p className='font-montserrat text-[20px] font-bold text-black '>HD Wooden Decor Film</p>
-                 <p className='font-medium text-[16px] text-black '>Regardless of natural wood or stone structure, Plankton SPC offers a verity of beautiful designs. That will better Showcase your individual style.</p>
+                 <p className='font-normal text-[16px] text-black '>Regardless of natural wood or stone structure, Plankton SPC offers a verity of beautiful designs. That will better Showcase your individual style.</p>
                 </div>
              </div>
 
@@ -45,7 +45,7 @@ const WhySPC = () => {
                 </div>
                 <div>
                  <p className='font-montserrat text-[20px] font-bold text-black '>Solid Polymer Core board</p>
-                 <p className='font-medium text-[16px] text-black '>This core is made from a combination of natural limestone powder and stabilizers,
+                 <p className='font-normal text-[16px] text-black '>This core is made from a combination of natural limestone powder and stabilizers,
                  ensuring a stable and waterproof performance for the floor.</p>
                 </div>
              </div>
@@ -56,13 +56,13 @@ const WhySPC = () => {
                 </div>
                 <div>
                  <p className='font-montserrat text-[20px] font-bold text-black '>IXPE Padding</p>
-                 <p className='font-medium text-[16px] text-black '>Better sound absorption and excellent underfoot feeling.</p>
+                 <p className='font-normal text-[16px] text-black '>Better sound absorption and excellent underfoot feeling.</p>
                 </div>
              </div>
           </div>
 
-         <div className='xl:w-[410px] w-full flex justify-end '>
-          <img src="/img/Layers.png" className='md:w-[430px] w-full h-full   '/>
+         <div className='xl:w-[440px] w-full flex justify-end '>
+          <img src="/img/Layers.png" className='md:w-[430px] w-full h-full object-cover   '/>
          </div>
           
        

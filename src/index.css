@@ -38,7 +38,6 @@
   display: block;
   text-decoration: none;
   text-align: center;
-  width: 300px;
   padding: 10px 0;
   border-width: 1px;
   border-color: #000;
@@ -56,8 +55,6 @@
 }
 
 .liquid{
-  width: 300px;
-  height: 300px;
   background-color: #000;
   box-shadow: inset 0 0 50px rgba(0,0,0,0.5) ;
   position: absolute;
@@ -129,4 +126,25 @@
 
 .zoom-out {
   animation: zoomOut 1s forwards;
+}
+
+
+.autoplay-progress {
+  z-index: 10;
+  width: 138px; /* Adjust width as needed */
+  height: 6px;  /* Height of the line */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #ACACAC99; /* Background for the line container */
+  border-radius: 5px; /* Round edges for the line container */
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: calc(var(--progress) * 100%);
+  height: 100%;
+  border-radius: 5px;
+  background-color: white; /* Color for the progress bar */
+  transition: width 0.1s linear; /* Smooth animation for progress */
 }

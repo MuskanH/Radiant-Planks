@@ -59,10 +59,10 @@ const Footer = () => {
  
 
       <div className="bg-white w-full h-[80px] hidden md:flex justify-between items-center px-10">
-        <p className="font-bold text-[16px]  ">
-          &#169;{currentYear} ALL RIGHTS RESERVED by <b>RADIANT PLANKS</b>
+        <p className="font-semibold text-[16px]  ">
+          &#169;{currentYear} ALL RIGHTS RESERVED by <b className="font-bold">RADIANT PLANKS</b>
         </p>
-        <p className="font-bold text-[16px] ">
+        <p className="font-semibold text-[16px] ">
           Design & Developed by{" "}
           <a href="https://pruthatek.com" className="text-[#F29622] underline">
             PRUTHATEK
@@ -90,10 +90,10 @@ const Footer = () => {
 
       <div className="md:hidden flex flex-col w-full h-fit py-10 gap-y-5 justify-center items-center">
        
-        <p className="font-bold text-[12px]  ">
-          &#169;{currentYear} ALL RIGHTS RESERVED by <b>RADIANT PLANKS</b>
+        <p className="font-semibold text-[12px]  ">
+          &#169;{currentYear} ALL RIGHTS RESERVED by <b className='font-semibold '>RADIANT PLANKS</b>
         </p>
-        <p className="font-bold text-[12px] ">
+        <p className="font-semibold text-[12px] ">
           Design & Developed by{" "}
           <a href="https://pruthatek.com" className="text-[#F29622] underline">
             PRUTHATEK
