@@ -84,54 +84,54 @@ const ProductsPage = ({active,setActive}) => {
         {
         id: 15,
         name: "Appalachian Heritage",
-        img: "/img/appalachian.svg"
+        img: "/img/appalachian.jpg"
         },
         {
           id: 16,
           name: "Whispering Zephyr",
-          img: "whispering"
+          img: "/img/whispering.jpg"
         }
     ],
     luxicore: [ 
         {
         id: 17,
         name: "Marine Slate Planks",
-        img: "/img/marine.svg"
+        img: "/img/marine.jpg"
       },
       {
         id: 18,
         name: "Subaqueous Onyx",
-        img: "/img/subaqueous.svg"
+        img: "/img/subaqueous.jpg"
       },
       {
         id: 19,
         name: "Coastal Elegance",
-        img: "/img/coastal.svg"
+        img: "/img/coastal.jpg"
       },
       {
         id: 20,
         name: "Atlantic Shadowwood",
-        img: "/img/atlantic.svg"
+        img: "/img/atlantic.jpg"
       },
-      {
-        id: 21,
-        name: "Golden Harvest Oak",
-        img: "/img/golden.svg"
-      },
+      // {
+      //   id: 21,
+      //   name: "Golden Harvest Oak",
+      //   img: "/img/golden.jpg"
+      // },
       {
         id: 22,
         name: "Italiano Festa Wood",
-        img: "/img/italiano.svg"
+        img: "/img/italiano.jpg"
       },
       {
         id: 23,
         name: "Golden Sequio Glow",
-        img: "/img/sequio.svg"
+        img: "/img/sequio.jpg"
       },
       {
         id: 24,
         name: "Swiftstyle Oak",
-        img: "/img/swift.svg"
+        img: "/img/swift.jpg"
       },
     ],
   };
